@@ -20,11 +20,11 @@ Running a pypiserver on AppEngine backend with Google Cloud Storage.
 
 ## Environment Configurations
 
-1. BUCKET_NAME - used to specify the destination GCP Storage bucket
-2. LOCAL_PACKAGE_DIRECTORY - used to specify the local directory for packages, 
+1. `BUCKET_NAME` - used to specify the destination GCP Storage bucket
+2. `LOCAL_PACKAGE_DIRECTORY` - used to specify the local directory for packages, 
       make sure it is set to `/tmp` when running on AppEngine
-3. REMOTE_PACKAGE_DIRECTORY - used to indicate the directory on a remote bucket (or other destination)
-4. TIER - a tier configuration, can be used to enable various default configurations (see `GlobalSettings` class)
+3. `REMOTE_PACKAGE_DIRECTORY` - used to indicate the directory on a remote bucket (or other destination)
+4. `TIER` - a tier configuration, can be used to enable various default configurations (see `GlobalSettings` class)
 
 ### NB
 
