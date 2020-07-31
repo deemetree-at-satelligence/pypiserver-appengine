@@ -2,6 +2,8 @@
 
 Running a pypiserver on AppEngine backend with Google Cloud Storage.
 
+> Disclaimer: This is not a library but an example of a way how to set it up.
+
 ## The small setup
 
 1. Pypiserver with this plugin runs on App Engine
@@ -80,6 +82,7 @@ https://github.com/pypiserver/pypiserver/issues/322.
 
 ## Post Scriptum
 
-P.S: code can be made cleaner.
-P.P.S: if you run into troubles, please include your traces and std outputs in comments
-P.P.P.S: this readme could be made better
+P.S: code can be made cleaner.  
+P.P.S: if you run into troubles, please include your traces and std outputs in comments  
+P.P.P.S: this readme could be made better  
+P.P.P.P.S: this is not a library
