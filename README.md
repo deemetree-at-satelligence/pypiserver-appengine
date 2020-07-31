@@ -58,7 +58,7 @@ Examle `requirements.txt`:
 1. Make sure `gunicorn` is installed
 2. Run `gunicorn --reload -b :8081 -w 2 'main:get_app()'`
 
-Dealing with pypiserver's password setup:
+## Dealing with pypiserver's password setup
 
 1. To add a password specification, simply include a `htpasswd.txt` as described in
       https://github.com/pypiserver/pypiserver#apache-like-authentication-htpasswd
